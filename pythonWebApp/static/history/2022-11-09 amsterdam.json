@@ -1,0 +1,34 @@
+{
+    "location": "Amsterdam, Noord-Holland, Nederland",
+    "description": "Similar temperatures continuing with a chance of rain tomorrow.",
+    "temperature": 12.0,
+    "humidity": 85.3
+}{
+    "days": [
+        13.0,
+        12.0,
+        11.0,
+        8.9,
+        9.5,
+        9.6,
+        11.2
+    ],
+    "nights": [
+        10.1,
+        10.0,
+        8.4,
+        7.8,
+        7.4,
+        7.9,
+        12.0
+    ],
+    "humidity": [
+        85.3,
+        87.4,
+        86.0,
+        82.8,
+        82.7,
+        77.1,
+        79.8
+    ]
+}

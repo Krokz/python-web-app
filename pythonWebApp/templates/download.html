@@ -1,0 +1,11 @@
+{%extends "webtemp.html"%}
+<center>
+{%block title%} history {%endblock%}
+{%block content%}
+{%for i in history%}
+<br><a href="static/history/{{i}}" download>
+    <button>{{i}}</button>
+</a><br><br><br>
+{%endfor%}
+{%endblock%}
+</center>

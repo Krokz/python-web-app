@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/pythonWebApp.iml" filepath="$PROJECT_DIR$/.idea/pythonWebApp.iml" />
+      <module fileurl="file://$USER_HOME$/pythonproj/.idea/pythonproj.iml" filepath="$USER_HOME$/pythonproj/.idea/pythonproj.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/Brain Fuel_files/shalev.bell-master-weather/.idea/shalev.bell-master-weather.iml" filepath="$USER_HOME$/Desktop/Brain Fuel_files/shalev.bell-master-weather/.idea/shalev.bell-master-weather.iml" />
+    </modules>
+  </component>
+</project>

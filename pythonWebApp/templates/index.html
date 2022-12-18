@@ -1,0 +1,46 @@
+{%extends "webtemp.html"%}
+
+{%block content%}
+<center>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<h2>The location is: {{weather.location}}<br>
+Weather description: {{weather.description}}<br>
+    Current Temperature: {{weather.temperature}}<br>
+Current humidity percent: {{weather.humidity}} </h2>
+
+<h1>Day and Night Temperatures for the next 7 days</h1>
+
+<div class="row">
+  <div class="column" style="background-color:#6dbfc1;">
+    <h2><u><b>Temperature at day</b></u></h2>
+    <p>
+        {% for i in range(7)%}
+        Day {{i + 1}} - {{days[i]}}°C<br>
+        {%endfor%}
+    </p>
+  </div>
+  <div class="column" style="background-color:#6dbfc1;">
+    <h2><u><b>Temperature at night</b></u></h2>
+    <p>
+        {% for i in range(7)%}
+        Night {{i + 1}} - {{nights[i]}}°C<br>
+        {%endfor%}
+    </p>
+      </div>
+      <div class="column" style="background-color:#6dbfc1;">
+    <h2><u><b>Humidity percent</b></u></h2>
+    <p>
+        {% for i in range(7)%}
+        Humidity % in day {{i + 1}} - {{humidity[i]}}%<br>
+        {%endfor%}
+    </p>
+
+
+  </div>
+
+</div>
+</center>
+{%endblock%}
+
+
+

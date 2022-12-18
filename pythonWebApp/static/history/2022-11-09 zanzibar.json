@@ -1,0 +1,34 @@
+{
+    "location": "Zanzibar, Mjini Magharibi, Tanzania",
+    "description": "Similar temperatures continuing with a chance of rain multiple days.",
+    "temperature": 26.2,
+    "humidity": 85.1
+}{
+    "days": [
+        27.0,
+        30.6,
+        30.8,
+        28.1,
+        31.0,
+        28.1,
+        29.9
+    ],
+    "nights": [
+        24.0,
+        24.7,
+        24.5,
+        23.8,
+        23.3,
+        23.5,
+        22.9
+    ],
+    "humidity": [
+        85.1,
+        79.2,
+        77.1,
+        79.2,
+        71.3,
+        74.3,
+        70.9
+    ]
+}

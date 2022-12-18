@@ -1,0 +1,34 @@
+{
+    "location": "Paris, \u00cele-de-France, France",
+    "description": "Similar temperatures continuing with a chance of rain Tuesday & Wednesday.",
+    "temperature": 12.3,
+    "humidity": 82.2
+}{
+    "days": [
+        12.9,
+        10.5,
+        8.2,
+        10.7,
+        10.9,
+        10.3,
+        11.4
+    ],
+    "nights": [
+        9.6,
+        8.7,
+        8.4,
+        10.9,
+        10.7,
+        11.5,
+        10.1
+    ],
+    "humidity": [
+        82.2,
+        84.6,
+        87.7,
+        83.4,
+        81.1,
+        68.4,
+        88.2
+    ]
+}

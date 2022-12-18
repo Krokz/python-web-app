@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<center>
+<html>
+
+  <body>
+  <style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: serif;
+    color: black;
+  background-color: {{bg}};
+   }
+
+.column {
+  float: center;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  </style>
+    <h2>Welcome to Adam's forecast!</h2>
+
+    <form action="/" method="post">
+      <label for="city">Enter a city name:</label><br>
+      <input type="text" id="city" name="city" placeholder="City Name" value="{{city}}"><br>
+      <a href="">
+      <br><input type="submit" value="Submit">
+      </a>
+    </form>
+
+    <form action="/download" method="get">
+      <a href="">
+        <br><input type="submit" name="history" value="History">
+      </a>
+    </form>
+
+  {%block content%}{%endblock%}
+
+  </body>
+
+
+</html>
+</center>
